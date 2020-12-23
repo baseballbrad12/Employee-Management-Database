@@ -1,0 +1,27 @@
+{
+  "name": "employee_management_dataase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baseballbrad12/Employee-Management-Database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baseballbrad12/Employee-Management-Database/issues"
+  },
+  "homepage": "https://github.com/baseballbrad12/Employee-Management-Database#employee-management-database",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1",
+    "node": "^15.3.0"
+  }
+}
