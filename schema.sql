@@ -58,17 +58,17 @@ INSERT INTO role (title, salary, department_id) VALUE ("Supply Chain Analyst I",
 INSERT INTO role (title, salary, department_id) VALUE ("Office Administrator I", 50000, 6);
 
 -- employee Seeds
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Bradley", "Gosiengfiao", null, 9);  
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Eddie", "Van Halen", 1, 5);  
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Young", "Thug", 2, 2);
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Jerry", "Rice", 3, 1);
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Tom", "Brady", 1, 3);  
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Johnny", "English", null, 13); 
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Nick", "Bosa", null, 12); 
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Joe", "Montana", null, 11); 
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Roddy", "Rich", null, 10); 
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Derek", "Jeter", null, 8); 
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Babe", "Ruth", 2, 7); 
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Stephen", "A Smith", 1, 6); 
-INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Todd", "Gurley", 2, 4); 
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Bradley", "Gosiengfiao", 4, 9);  
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Eddie", "Van Halen", null, 5);  
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Young", "Thug", null, 2);
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Jerry", "Rice", null, 1);
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Tom", "Brady", null, 3);  
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Johnny", "English", 2, 13); 
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Nick", "Bosa", 5, 12); 
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Joe", "Montana", 6, 11); 
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Roddy", "Rich", 7, 10); 
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Derek", "Jeter", 1, 8); 
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Babe", "Ruth", null, 7); 
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Stephen", "A Smith", null, 6); 
+INSERT INTO employee (first_name, last_name, manager_id, role_id) VALUE ("Todd", "Gurley", null, 4); 
 
